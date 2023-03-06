@@ -1,0 +1,85 @@
+
+body{
+    
+    
+    
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+h1{
+    margin:auto;
+    padding-top: 150px;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+ font-family: 'Montserratt', sans-serif;
+}
+h3{
+    font-family: 'Montserratt', sans-serif;
+}
+/**class selector**/
+/*
+.top_container{
+   // background-color: #e4f9f5;
+   
+    position: relative;
+    padding-top: 100px;
+}*/
+
+.attrition{
+    font-size: 5%;
+}
+
+.background_div{
+   
+    background-image: url("../images/mountain.jpg");   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:auto;
+    height:400px;
+}
+.top_container{
+   
+}
+.middle_container{
+   
+    
+}
+
+.bottom_container{
+    
+   
+}
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left:300px;
+}
+
+.mountain{
+    width:200px;
+    height:200px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+}
+
+.profile{
+    padding: 20px;
+}
+
+.skill-images{
+    width: 200px;
+    height: 150px;
+}
