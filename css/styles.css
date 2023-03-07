@@ -1,24 +1,57 @@
 
+a{
+    color:#11999E;
+    font-family: 'Montserratt', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+} 
+
 body{
-    
-    
-    
+       
     margin:0px;
     text-align: center;
     font-family: 'Merriweather', serif;
     
 }
+/** 16px= 100%=1em; 90px= 90/16=5.626em**/
+/**with only 'em' fontsize will inherit the size of its parent
+in that case the actual h1 font size will be bigger than we
+designed. so from css3 we use 'rem' which is similar to em but
+doesn't inherit the parent font size . rem ignores all other sizing 
+relative to the parent and takes only the defined value. **/
 h1{
-    margin:auto;
+    margin: 50px auto 0 auto;
     padding-top: 150px;
+    font-size: 5.625rem;
     font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    
 }
 
 h2{
  font-family: 'Montserratt', sans-serif;
+ font-size: 2.5rem;
+ color: #66BFBF;
+ font-weight: normal;
+ padding-bottom: 10px;
 }
 h3{
     font-family: 'Montserratt', sans-serif;
+    color:#11999E;
+}
+
+hr{
+  
+    border-style: none none dotted none;
+    width: 50px;
+    border-color:grey ;
+    border-width: thick;
+
+}
+p{
+    line-height: 2;
 }
 /**class selector**/
 /*
@@ -43,43 +76,93 @@ h3{
     width:auto;
     height:400px;
 }
-.top_container{
+
+.btn {
    
-}
-.middle_container{
-   
-    
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom-container{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #66BFBF;
 }
 
-.bottom_container{
-    
-   
-}
-.pro{
-    text-decoration: underline;
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
-.bottom-cloud{
-    position: absolute;
-    bottom: 300px;
-    left:300px;
+.copyright{
+    color:#EAF6F6;
+    font-size: .75rem;     
 }
 
+.footer-link{
+    color: #11999e;
+}
+
+.intro{
+    width: 40%;
+    margin: auto;
+}
+.middle-container{
+    margin:100px 0;
+}
 .mountain{
     width:200px;
     height:200px;
 }
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top:50px;
-}
+
 
 .profile{
     padding: 20px;
 }
-
-.skill-images{
-    width: 200px;
-    height: 150px;
+.pro{
+    text-decoration: underline;
+}
+.skill-row{
+    width: 50%;
+    margin:50px auto 50px auto;
+    text-align: left;
+    
+}
+.Java_skill-images{
+    width: 20%;
+    margin-right:30px;
+    float:left;
+}
+.web_skill-images{
+    width: 20%;
+    float: right;
+    margin-left:30px;
+}
+.up_skill-images{
+    width: 20%;
+    margin-right:30px;
+    float:left;
 }
